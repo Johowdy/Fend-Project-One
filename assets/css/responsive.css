@@ -1,4 +1,4 @@
-.header_container, .container {
+.header_container, .container, .projects_container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -9,5 +9,57 @@
     width: 450px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .hero_img {
+    width: 650px;
+    height: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .header_text {
+    font-size: 1.5em;
+    width: 70%;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+
+  .header_logo {
+    width: 30%;
+  }
+
+  .header_img {
+    height: 150px;
+  }
+
+  .project {
+    width: 33.33%;
+  }
+
+  .featured_title {
+    font-size: 1.8em;
+  }
+
+  .project_img {
+    max-width: inherit;
+    max-height: inherit;
+    padding: 0 10px;
+  }
+
+  .project_two {
+    order: -1;
+  }
+
+  .project_one .project_img {
+    padding: 0;
+  }
+
+  .project_title, .project_text {
+    font-size: 1.25em;
+
   }
 }
