@@ -63,3 +63,41 @@
 
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .hero_img {
+    width: 900px;
+    height: 500px;
+    padding-top: 0;
+  }
+  .header_container {
+    border-bottom: 5px solid grey;
+  }
+
+  .header_text {
+    padding-right: 0;
+  }
+
+  .projects_container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project_img {
+    padding: 20px;
+  }
+  
+  .header_container, .container, .projects_container {
+    width: 900px;
+    margin: auto;
+  }
+
+  .header_logo {
+    display: flex;
+  }
+  /*
+  .featured_title {
+    order: -1;
+  } */
+}
