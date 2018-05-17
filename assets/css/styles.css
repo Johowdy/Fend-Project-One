@@ -1,3 +1,5 @@
+/*general CSS style rules*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +10,6 @@ body {
   text-align: center;
   background-color: #c0d7e0;
 }
-
 
 .header_logo {
   text-align: left;
